@@ -1,0 +1,14 @@
+# Project-specific overrides
+# Exclude build artifacts
+*.min.js linguist-generated
+
+yarn.lock linguist-generated
+*.woff binary
+*.astro linguist-detectable
+dist/* linguist-vendored
+
+vendor/* linguist-vendored
+build/* linguist-vendored
+*.bat text eol=crlf
+public/index.html linguist-vendored
+src/*.astro linguist-detectable
